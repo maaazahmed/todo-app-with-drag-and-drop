@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.crf_margin{
+   margin: 0px;
+   margin-left: -30px;
+   margin-right: -30px;
+  
+  background-color: #fafafa ;
+  border-radius: 4px 
+}
+
+
+nav{
+  box-shadow: 0px 0px 0px 0px;
+}
+
+
+.dragableCard{
+}
+
+ .todo_section{
+   background-color: #29b6f6 ;
+   /* min-height:300px; */
+
+}
+
+.doing_section{
+  background-color: #4db6ac;
+  /* min-height:300px; */
+  
+}
+
+.reviwe_section{
+  background-color: #ba68c8 ;
+  /* min-height:300px; */
+  
+}
+
+.done_section{
+  background-color: #f57c00;
+  /* min-height:300px; */
+  
+}
+
+.deleteButton{
+   margin-left: -46px;
+  margin-top: 30px;
+ margin-bottom: -22px;
+
+}
+
+.mainModal{
+
+}
+
+.inputModal{
+ box-shadow: 0px 0px 0px 0px;
+ border: none;
+}
+
+.modalFooter{
+   /* padding-top: 20px; */
+   width: 500px;
+   height: 260px;
+   border-radius: 5px; 
+  
+
+}
+
+.createBtn{
+  margin-left: 95px;
+  margin-top: 9px;
+}
+
+addBtn{
+  
+}
+
+
+
+/* label color */
+.input-field label {
+  color: rgb(114, 114, 114);
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #29b6f6 !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #29b6f6 !important;
+  box-shadow: 0 1px 0 0 #29b6f6 !important;
+}
+/* valid color */
+.input-field input[type=text].valid {
+  border-bottom: 1px solid  rgb(189, 189, 189);
+  box-shadow: 0 1px 0 0  rgb(177, 177, 177);
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #000;
+}
